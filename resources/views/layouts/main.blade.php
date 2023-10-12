@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Edica :: Home</title>
-    <link rel="stylesheet" href="{{asset('assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
+    <link rel="stylesheet" href="{{'assets/vendors/flag-icon-css/css/flag-icon.min.css'}}">
     <link rel="stylesheet" href="{{'assets/vendors/font-awesome/css/all.min.css'}}">
     <link rel="stylesheet" href="{{'assets/vendors/aos/aos.css'}}">
     <link rel="stylesheet" href="{{'assets/css/style.css'}}">
@@ -68,7 +68,7 @@
             <h1 class="banner-title">Download it now.</h1>
             <div class="banner-btns-wrapper">
                 <button class="btn btn-success"> <img src="{{'assets/images/apple@1x.svg'}}" alt="ios" class="mr-2"> App Store</button>
-                <button class="btn btn-success"> <img src="{{'assets/images/apple@1x.svg'}}assets/images/android@1x.svg" alt="android" class="mr-2"> Google Play</button>
+                <button class="btn btn-success"> <img src="{{'assets/images/android@1x.svg'}}" alt="android" class="mr-2"> Google Play</button>
             </div>
             <p class="banner-text">Add some helper text here to explain the finer details of your <br> product or service.</p>
         </div>
