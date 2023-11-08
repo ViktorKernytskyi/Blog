@@ -6,12 +6,12 @@ use App\Http\Controllers\Controller;
 use App\Models\Category;
 
 
-class IndexController extends Controller
+class ShowController extends Controller
 {
 
-    public function __invoke()
+    public function __invoke(Category $category)
     {
         $categories = Category::all();
-        return view('admin.categories.index', compact('categories'));
+        return view('admin.categories.show', compact('category'));
     }
 }
